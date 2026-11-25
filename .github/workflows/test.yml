@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
   pull_request:
     branches:
-      - 'master'
+      - 'main'
 
 env:
   ARBITRUM_ONE_RPC_URL:  ${{ secrets.ARBITRUM_ONE_RPC_URL }}
